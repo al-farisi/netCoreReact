@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{14D5A647-46E1-472C-98A6-EB8AB572FBF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DBE3475F-AFF7-4A1D-B52B-76A310C1A7BE}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NetCoreReact", "src\NetCoreReact\NetCoreReact.xproj", "{9A9391C0-3A78-4B02-8D55-208918F0893B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A9391C0-3A78-4B02-8D55-208918F0893B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A9391C0-3A78-4B02-8D55-208918F0893B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A9391C0-3A78-4B02-8D55-208918F0893B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A9391C0-3A78-4B02-8D55-208918F0893B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A9391C0-3A78-4B02-8D55-208918F0893B} = {14D5A647-46E1-472C-98A6-EB8AB572FBF3}
+	EndGlobalSection
+EndGlobal
